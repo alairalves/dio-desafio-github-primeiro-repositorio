@@ -1,0 +1,20 @@
+link para download do git : https://git-scm.com/
+O Git bash é um terminal extendido para otimizar o uso do git.
+
+Comandos importantes do Git bash:
+
+- echo {"Mudança no arquivo!" >> arquivo. txt -> Efetuano mudança no arquivo. se estiverem fora do stage. Ou seja, antes de adicionar o arquivo com o comando -> git add nomedoarquivo.}
+- git status {exibe as condições do diretório de trabalho e da área de staging. Ele permite que você veja quais alterações foram despreparadas, quais não foram e quais arquivos não estão sendo monitorados pelo Git}
+- git push   {exibe as condições do diretório de trabalho e da área de staging. Ele permite que você veja quais alterações foram despreparadas, quais não foram e quais arquivos não estão sendo monitorados pelo Git}
+- git commit -m {usado fazer commit de uma captura de tela no diretório de staging para o histórico de commit de repositórios e o comando '-m' serve para deixar uma mensagem sobre esse commit}
+- git add {adiciona uma alteração no diretório ativo à área de staging. Ele diz ao Git que você quer incluir atualizações a um arquivo específico no próximo commit. No entanto, git add não tem efeito real e significativo no repositório — as alterações não são gravadas mesmo até você executar git commit.}
+          {O comando 'git add * git add .'servem para adicionar todas as alterações}
+- git remote {permite criar, ver e excluir conexões com outros repositórios. As conexões remotas são mais parecidas com marcadores em vez de links diretos para outros repositórios.}
+- git remote add {adiciona uma alteração no diretório ativo à área de staging. Ele diz ao Git que você quer incluir atualizações a um arquivo específico no próximo commit. No entanto, git add não tem efeito real e significativo no repositório — as alterações não são gravadas mesmo até você executar git commit .}
+- git config {que permite ver e atribuir variáveis de configuração que controlam todos os aspectos de como o Git aparece e opera. Estas variáveis podem ser armazenadas em três lugares diferentes: /etc/gitconfig : válido para todos os usuários no sistema e todos os seus repositórios.}
+- git config --list {para listar todas as configurações que o Git conseguir encontrar naquele momento: $ git config --list user.name=Fulano de Tal user.}
+- cd {é usado para trocar de um diretório para outro}
+- cd .. {voltar um diretorio}
+- ls {é usado para listar arquivos ou diretórios no Linux e em outros sistemas operacionais baseados no Unix.}
+- mv {é usado para se mover um arquivo para um novo diretório ou pasta, exatamente igual quando arrastamos um arquivo de um lugar para o outro com o cursos do mouse}
+- mkdir {Esse comando cria um diretório (oculto) . git , contendo as configurações necessárias para o funcionamento do sistema, e onde também serão armazenadas as versões dos arquivos. Esse comando só é necessário uma vez. Outra coisa importante é que o diretório}
